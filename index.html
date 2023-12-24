@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TicTacToe-Mania</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Tic Toe Game</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="leftContainer">
+            <div class="line"></div>
+            <div class="gridbox bt-0 bl-0"><span class="gridboxtext"></span></div>
+            <div class="gridbox bt-0"><span class="gridboxtext"></span></div>
+            <div class="gridbox bt-0 br-0"><span class="gridboxtext"></span></div>
+            <div class="gridbox bl-0"><span class="gridboxtext"></span></div>
+            <div class="gridbox"><span class="gridboxtext"></span></div>
+            <div class="gridbox br-0"><span class="gridboxtext"></span></div>
+            <div class="gridbox bl-0 bb-0"><span class="gridboxtext"></span></div>
+            <div class="gridbox bb-0"><span class="gridboxtext"></span></div>
+            <div class="gridbox bb-0 br-0"><span class="gridboxtext"></span></div>
+        </div>
+
+        <div class="rightContainer">
+            <h1>Game Info</h1>
+            <div>
+                <span class="info"> Turn for X</span>
+                             
+                <button id="playAgain">Play Again!</button>
+                 <!-- Toss GIF Container -->
+                 <div id="tossGIF" style="display: none;">
+                    <img src="giphy/giphy.gif" alt="Tossing..." />
+                </div>
+
+                <div id="gameGIF" style="display: none;">
+                    <img src="giphy/game.gif" alt="Game in progress..." />
+                </div>
+
+                <div id="winGIF" style="display: none;">
+                    <img src="giphy/win.gif" alt="Game Over" />
+                </div>
+
+            </div>
+            <div></div>
+        </div>
+
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
